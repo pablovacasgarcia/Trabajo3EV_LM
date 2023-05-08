@@ -1,0 +1,51 @@
+
+/* Estilos específicos para el contenido */
+  
+.primero {
+  text-shadow:3px 3px 15px #000000;
+  color:#ffffff;
+  position: relative;
+  padding: 10%;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 2px;
+}
+.primero h1{
+  font-size: 40px;
+}
+.primero h2{
+  color: rgb(237, 41, 41);
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 25px;
+}
+.intro {
+  text-align: justify;
+}
+  
+.section-title {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+  
+.subsection-title {
+  margin-top: 20px;
+  font-size: 18px;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: -100px;
+}
+
+  
+ 

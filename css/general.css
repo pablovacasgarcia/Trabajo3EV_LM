@@ -1,0 +1,126 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+header nav{	
+    margin-top: -85px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(51, 51, 51, 0.8);
+    font-size: 20px;
+    padding: 2%;	
+  }
+  
+  header nav ul{
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    list-style: none;
+  }
+  header nav ul a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+  }
+  header nav ul ul{
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 6%;
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgb(51, 51, 51, 0.8);
+  }
+  
+  header nav ul li:hover > ul{
+    display:block
+  }
+  header nav ul ul ul{
+    text-align: center;
+    display:none;
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -37px;
+    font-size: 20px;
+    width: 40%;
+  }
+  header nav li:hover{
+    color: white;
+  }
+  
+  main {
+    margin-top: 100px;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+h1 {
+    font-size: 32px;
+    margin-top: 0;
+    text-align: center;
+}
+  
+h2{
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .section-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+  
+    .subsection-title {
+      font-size: 16px;
+    }
+  
+    .channel {
+      font-size: 14px;
+      margin-left: 15px;
+    }
+  
+    .channel a:before {
+      margin-right: 3px;
+    }
+  }
+  
