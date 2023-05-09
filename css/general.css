@@ -18,6 +18,11 @@ header nav{
     position: relative;
     list-style: none;
   }
+
+  header nav ul ul>li {
+    width: 110%;
+  }
+
   header nav ul a{
     display: block;
     text-decoration: none;
@@ -37,17 +42,18 @@ header nav{
     background-color: rgb(51, 51, 51, 0.8);
   }
   
-  header nav ul li:hover > ul{
+  header nav ul li:hover>ul{
     display:block
   }
+
   header nav ul ul ul{
     text-align: center;
     display:none;
     position: absolute;
-    margin-left: 85%;
-    margin-top: -37px;
+    margin-left: 90%;
+    margin-top: -42px;
     font-size: 20px;
-    width: 40%;
+    width: 60%;
   }
   header nav li:hover{
     color: white;
