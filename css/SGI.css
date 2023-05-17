@@ -2,3 +2,36 @@ header {
     margin-top: 80px;
     padding-bottom: 50px;
 }
+section{
+    padding: 10%;
+    display: flex;
+    box-shadow: 5px 5px 10px black;
+}
+section:nth-child(1){
+    margin-top: -230px;
+    color: red;
+    display: block;
+    box-shadow: none;
+}
+section:nth-child(2){
+    margin-top: -100px;
+    background-color: rgba(157, 155, 155, 0.8);
+    color: white;
+    flex-direction: row-reverse;
+}
+section:nth-child(3){
+    color: black;
+}
+section:nth-child(4){
+    background-color: rgba(157, 155, 155, 0.8);
+    color: white;
+    flex-direction: row-reverse;
+}
+img{
+    height: 400px;
+    margin:  20px;
+}
+h2{
+    color: red;
+    font-family: 'Fjalla One', sans-serif;
+}
