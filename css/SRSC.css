@@ -2,3 +2,70 @@ header {
     margin-top: 80px;
     padding-bottom: 50px;
 }
+section{
+    font-family: 'Fjalla One', sans-serif;
+}
+section:nth-child(1){
+    background-color: white;
+    margin-top: -6%;
+    margin-bottom: 5%;
+    color: red;
+    display: block;
+    box-shadow: none;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    background: none;
+}
+section:nth-child(2){
+    background-image: url("../img/fondo4.avif");
+    color:rgb(0, 0, 0);
+    padding:3%;
+}
+pre{
+    border: 6px double red;
+    width: 50%;
+    margin-left: 20%;
+    padding: 2%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+section:nth-child(3){
+    padding:2%;
+    background-image: url("../img/fondo6.png");
+    color:rgb(255, 255, 255);
+    padding:3%;
+}
+h2{
+    color: rgb(243, 127, 127);
+    text-shadow: 1px 1px 3px black;
+}
+article{
+    display: flex;
+    padding: 8%;
+}
+div{
+    padding:5%
+}
+img{
+    height: 300px;
+}
+article:nth-child(1){
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 50%;
+    margin-left: 15%;
+}
+article:nth-child(2){
+    flex-direction: row-reverse;
+    margin-top: -3%;
+}
+
+article:nth-child(1) img{
+    width: 50%;
+    margin-left: 25%;
+}
+article:nth-child(2) img{
+    margin-top: 7%;
+    box-shadow:3px 1px 20px 11px white;
+}
