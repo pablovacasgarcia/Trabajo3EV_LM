@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 header nav{	
     margin-top: -85px;
     z-index: 1;
@@ -69,12 +71,6 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
   
 h1 {
     font-size: 32px;

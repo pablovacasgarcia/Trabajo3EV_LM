@@ -1,37 +1,57 @@
 header {
-    margin-top: 80px;
-    padding-bottom: 50px;
+    margin-top: 5.5%;
+    padding-bottom: 3%;
 }
 section{
     padding: 10%;
     display: flex;
     box-shadow: 5px 5px 10px black;
+    text-align: justify;
+    background-repeat: repeat;
+    font-family: 'Fjalla One', sans-serif;
 }
 section:nth-child(1){
-    margin-top: -230px;
+    margin-top: -14%;
     color: red;
     display: block;
     box-shadow: none;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    background: none;
+
 }
 section:nth-child(2){
-    margin-top: -100px;
+    margin-top: -7%;
     background-color: rgba(157, 155, 155, 0.8);
     color: white;
     flex-direction: row-reverse;
+    background-image: url("../img/fondo3.png");
 }
 section:nth-child(3){
     color: black;
+    background-image: url("../img/fondo2.png");
 }
 section:nth-child(4){
     background-color: rgba(157, 155, 155, 0.8);
     color: white;
     flex-direction: row-reverse;
+    background-image: url("../img/fondo3.png");
 }
 img{
     height: 400px;
     margin:  20px;
 }
 h2{
-    color: red;
-    font-family: 'Fjalla One', sans-serif;
+    color: rgb(243, 127, 127);
+    text-shadow: 1px 1px 3px black;
+}
+section:nth-child(2) article:nth-child(1){
+    margin: 9%;
+}
+section:nth-child(4) article:nth-child(1){
+    margin: 9%;
+}
+section:nth-child(4) img{
+    margin-top: -27%;
 }
