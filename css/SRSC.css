@@ -4,6 +4,8 @@ header {
 }
 section{
     font-family: 'Fjalla One', sans-serif;
+    box-shadow: 5px 5px 10px black;
+
 }
 section:nth-child(1){
     background-color: white;
@@ -51,19 +53,21 @@ img{
     height: 300px;
 }
 article:nth-child(1){
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     text-align: center;
-    width: 50%;
-    margin-left: 15%;
+    text-align: justify;
+    margin-bottom: -16%;
+    margin-right: 9%;
 }
 article:nth-child(2){
     flex-direction: row-reverse;
     margin-top: -3%;
+    text-align: justify;
 }
 
 article:nth-child(1) img{
     width: 50%;
-    margin-left: 25%;
+    margin-left: 1%;
 }
 article:nth-child(2) img{
     margin-top: 7%;
