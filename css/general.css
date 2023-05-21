@@ -9,9 +9,13 @@ header nav{
     z-index: 1;
     position: fixed;
     width: 100%;
-    background-color: rgb(51, 51, 51, 0.8);
+    background-color: rgb(51, 51, 51);
     font-size: 20px;
     padding: 2%;	
+  }
+
+  header nav>ul li:first-child {
+    margin-top: 15px;
   }
   
   header nav ul{
@@ -45,7 +49,7 @@ header nav{
     width: 6%;
     font-size: 24px;
     padding: 10px;
-    background-color: rgb(51, 51, 51, 0.8);
+    background-color: rgb(51, 51, 51);
   }
   
   header nav ul li:hover>ul{

@@ -23,15 +23,10 @@ section:nth-child(2){
     background-image: url("../img/fondo4.avif");
     color:rgb(0, 0, 0);
     padding:3%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-pre{
-    border: 6px double red;
-    width: 50%;
-    margin-left: 20%;
-    padding: 2%;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
+
 section:nth-child(3){
     padding:2%;
     background-image: url("../img/fondo6.png");
@@ -73,3 +68,133 @@ article:nth-child(2) img{
     margin-top: 7%;
     box-shadow:3px 1px 20px 11px white;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .window {
+    position: relative;
+    height: 450px;
+    width: 700px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 15px;
+    overflow: hidden;
+    background: none;
+    border: none;
+  }
+  
+  .window-title {
+    height: 30px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  .window-title p {
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .window-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .window-button {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .window-button.close {
+    background-color: #f00;
+  }
+  
+  .window-button.close:hover {
+    background-color: rgb(182, 2, 2);
+    cursor: pointer;
+  }
+  
+  .window-button.reduce {
+    background-color: #ff0;
+  }
+  
+  .window-button.reduce:hover {
+    background-color: rgb(172, 172, 4);
+    cursor: pointer;
+  }
+  
+  .window-button.fullscreen {
+    background-color: #0f0;
+  }
+  
+  .window-button.fullscreen:hover {
+    background-color: rgb(7, 159, 7);
+    cursor: pointer;
+  }
+  
+  .window-button:focus {
+    outline: none;
+  }
+  
+  .console {
+    width: 90%;
+    height: calc(100% - 30px);
+    background-color: #000;
+    color: #fff;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  
+  .console pre {
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: -80px;
+  }
+  
+  .console pre code {
+    color: #0f0;
+    outline: none;
+    padding-left: 0;
+  }
+  
+  .console::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .console::-webkit-scrollbar-track {
+    background-color: #333;
+  }
+  
+  .console::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 10px;
+    border: 2px solid #333;
+  }
+  
+  .console::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+  }
+
+  .enlaces a {
+    color: rgba(255, 255, 0, 0.663);
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .enlaces a:hover {
+    color: yellow;
+  }

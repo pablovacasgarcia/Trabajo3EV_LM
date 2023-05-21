@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SISTEMAS</title>
+    <title>Sistemas de gestión y sindicación</title>
     <link rel="stylesheet" href="css/SRSC.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="icon" type="image/png" href="img/logoarriba.png">
@@ -39,37 +39,87 @@
     <h1>Sistemas de redifusión o sindicación de contenidos: Uso y futuro</h1>
   </section>
   <section id="RSS">
+    <h2>¿Cuáles serán las ventajas de utilizar los canales de contenidos de otros
+      propietarios?</h2>
+    <ul style="list-style: circle; margin-left: 50px;">
+      <li>Aumentar el tráfico de nuestro sitio web.</li>
+      <li>Ayuda a que los usuarios y usuarias visiten frecuentemente el sitio web.</li>
+      <li>Favorece el posicionamiento del sitio en buscadores.</li>
+      <li>Ayuda a establecer relaciones entre distintos sitios web dentro de la
+      comunidad.</li>
+      <li>Permite a otras personas añadir características a los servicios del sitio web, aunque se requiera de tecnologías adicionales.</li>
+      <li> Internet impulsando la tecnología semántica y fomentando la reutilización.</li>
+    </ul>
     <h2>Formato RSS</h2>
-    <p>RSS (Really Simple Syndication) es un formato de redifusión de contenidos que permite a los usuarios recibir actualizaciones de los sitios web sin tener que visitarlos. Para crear un canal RSS, se necesita generar un archivo XML que contenga la información del contenido que se desea difundir. A continuación, se muestra un ejemplo de archivo XML:</p>
-        <pre>
-          &lt;?xml version="1.0" encoding="UTF-8"?&gt;
-          &lt;rss version="2.0"&gt;
-            &lt;channel&gt;
-              &lt;title&gt;Mi canal RSS&lt;/title&gt;
-              &lt;link&gt;https://www.misitio.com/rss&lt;/link&gt;
-              &lt;description&gt;Actualizaciones de Mi Sitio&lt;/description&gt;
-              &lt;item&gt;
-                &lt;title&gt;Título de la actualización&lt;/title&gt;
-                &lt;link&gt;https://www.misitio.com/articulo1&lt;/link&gt;
-                &lt;description&gt;Descripción de la actualización&lt;/description&gt;
-                &lt;pubDate&gt;Dom, 08 May 2023 00:00:00 GMT&lt;/pubDate&gt;
-              &lt;/item&gt;
-              &lt;item&gt;
-                &lt;title&gt;Otra actualización&lt;/title&gt;
-                &lt;link&gt;https://www.misitio.com/articulo2&lt;/link&gt;
-                &lt;description&gt;Descripción de la otra actualización&lt;/description&gt;
-                &lt;pubDate&gt;Lun, 09 May 2023 00:00:00 GMT&lt;/pubDate&gt;
-              &lt;/item&gt;
-            &lt;/channel&gt;
-          &lt;/rss&gt;
-        </pre>
+    <p>RSS (Really Simple Syndication) es parte de la familia de los formatos XML, desarrollado para compartir la
+      información que se actualiza con frecuencia entre sitios web. Además se utiliza en la conexión con
+      sistemas de mensajería instantánea, la conversión de RSS en mensajes de correo electrónico, o la
+      capacidad de transformar los enlaces favoritos del navegador en RSS. Ha sido desarrollado por tres
+      organizaciones diferentes, lo que ha dado lugar a siete formatos diferentes entre sí:
+      <ul style="list-style: circle; margin-left: 50px;">
+        <li>RSS 0.90, es el estándar que creó la empresa Netscape en el año
+        1999. Se basa en la especificación RDF de metadatos, con la intención
+        de que su proyecto My Netscape estuviese formado por titulares de
+        otras webs.</li>
+        <li>RSS 0.91, es la versión simplificada de RSS 0.90 que Nestscape lanzó
+        posteriormente. El desarrollo de este formato se detuvo por falta de
+        éxito, aunque la empresa UserLand Software decidió usar esta versión para desarrollar blogs.</li>
+        <li>RSS 1.0, fue creado a partir del estándar el RSS 0.90. Es más estable y permite definir una cantidad
+        mayor de datos que el resto de versiones de RSS.</li>
+        <li>RSS 2.0, UserLand Software rechazó el estándar RSS 1.0 por considerarlo complejo y continuó el
+        desarrollo del formato RSS 0.91, publicando las versiones 0.92, 0.93 y 0.94. Su sintaxis está
+        incompleta y no cumplen todas las normas de XML. El estándar RSS 2.0 se publicó para subsanar
+        esos problemas.</li>
+      </ul>
+      <div class="container"> 
+        <div class="window"> 
+          <div class="window-title">
+            <p>Ejemplo RSS</p>
+            <div class="window-buttons">
+              <div class="window-button fullscreen"></div>
+              <div class="window-button reduce"></div>
+              <div class="window-button close"></div>
+            </div>
+          </div>
+          <div class="console">
+            <pre><code>
+              &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+              &lt;rss version="2.0"&gt;
+                &lt;channel&gt;
+                  &lt;title&gt;Mi canal RSS&lt;/title&gt;
+                  &lt;link&gt;https://www.misitio.com/rss&lt;/link&gt;
+                  &lt;description&gt;Actualizaciones de Mi Sitio&lt;/description&gt;
+                  &lt;item&gt;
+                    &lt;title&gt;Título de la actualización&lt;/title&gt;
+                    &lt;link&gt;https://www.misitio.com/articulo1&lt;/link&gt;
+                    &lt;description&gt;Descripción de la actualización&lt;/description&gt;
+                    &lt;pubDate&gt;Dom, 08 May 2023 00:00:00 GMT&lt;/pubDate&gt;
+                  &lt;/item&gt;
+                  &lt;item&gt;
+                    &lt;title&gt;Otra actualización&lt;/title&gt;
+                    &lt;link&gt;https://www.misitio.com/articulo2&lt;/link&gt;
+                    &lt;description&gt;Descripción de la otra actualización&lt;/description&gt;
+                    &lt;pubDate&gt;Lun, 09 May 2023 00:00:00 GMT&lt;/pubDate&gt;
+                  &lt;/item&gt;
+                &lt;/channel&gt;
+              &lt;/rss&gt;
+            </code>
+          </pre>
+          </div>
+        </div>
+      </div>
+    
+        
   </section>
   <section id="ATOM">
     <article>
         <img src="img/ATOM.png">
         <div>
         <h2>Formato Atom</h2>
-        <p>Atom es otro formato de redifusión de contenidos similar a RSS. Aunque tiene menos usuarios que RSS, algunas ventajas de Atom son su mayor flexibilidad y su soporte nativo para contenido multimedia. Para crear un canal Atom, se sigue un proceso similar al de RSS.</p>
+        <p>Atom es otro formato de redifusión de contenidos similar a RSS. Aunque tiene menos usuarios que RSS, algunas ventajas de Atom son su mayor flexibilidad y su soporte nativo para contenido multimedia. Para crear un canal Atom, se sigue un proceso similar al de RSS.
+          Fue publicado como un estándar propuesto por el grupo de trabajo Atom Publishing Format and Protocol (Formato y protocolo de publicación Atom) de la IETF en el RFC4287. Se desarrolló como una alternativa a RSS, con el fin de evitar la confusión creada por la existencia de estándares similares para la
+          sindicación de contenidos, entre los que existía cierta incompatibilidad. En lugar de sustituir a los estándares existentes, se creó un nuevo estándar que convive con ellos. Se caracteriza por su flexibilidad. Atom permite tener un mayor control sobre la cantidad de información a representar en los agregadores.
+        </p>
       </div>
       </article>
     <article>
@@ -77,12 +127,47 @@
       <div>
       <h2>Canales RSS y Atom de interés</h2>
       <p>Existen muchos canales RSS y Atom de interés en diferentes áreas, como noticias, tecnología, deportes, entre otros. Algunos ejemplos son:</p>
-          <ul>
-            <li><a href="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/technology/rss.xml">The New York Times - Tecnología</a></li>
-            <li><a href="https://www.marca.com/rss/portada.xml">Marca - Portada</a></li>
-            <li><a href="https://www.ign.com/articles/rss">IGN - Artículos</a></li>
-            <li><a href="https://www.nasa.gov/rss/dyn/breaking_news.rss">NASA - Noticias de última hora</a></li>
-            <li><a href="https://feeds.bbci.co.uk/news/world/rss.xml">BBC News - Mundo</a></li>
+          <ul class="enlaces">
+            <li>
+              <strong>BBC News - RSS:</strong>
+              <a href="http://feeds.bbci.co.uk/news/rss.xml">http://feeds.bbci.co.uk/news/rss.xml</a>
+            </li>
+            <li>
+              <strong>The New York Times - RSS:</strong>
+              <a href="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml">https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml</a>
+            </li>
+            <li>
+              <strong>Wired - RSS:</strong>
+              <a href="https://www.wired.com/feed/rss">https://www.wired.com/feed/rss</a>
+            </li>
+            <li>
+              <strong>National Geographic - Atom:</strong>
+              <a href="http://feeds.nationalgeographic.com/ng/News/News_Main">http://feeds.nationalgeographic.com/ng/News/News_Main</a>
+            </li>
+            <li>
+              <strong>NASA Breaking News - RSS:</strong>
+              <a href="https://www.nasa.gov/rss/dyn/breaking_news.rss">https://www.nasa.gov/rss/dyn/breaking_news.rss</a>
+            </li>
+            <li>
+              <strong>The Verge - Atom:</strong>
+              <a href="https://www.theverge.com/rss/front-page/index.xml">https://www.theverge.com/rss/front-page/index.xml</a>
+            </li>
+            <li>
+              <strong>TechCrunch - RSS:</strong>
+              <a href="https://feeds.feedburner.com/TechCrunch/">https://feeds.feedburner.com/TechCrunch/</a>
+            </li>
+            <li>
+              <strong>ESPN - RSS:</strong>
+              <a href="http://www.espn.com/espn/rss/news">http://www.espn.com/espn/rss/news</a>
+            </li>
+            <li>
+              <strong>Daring Fireball - RSS:</strong>
+              <a href="https://daringfireball.net/feeds/main">https://daringfireball.net/feeds/main</a>
+            </li>
+            <li>
+              <strong>Lifehacker - RSS:</strong>
+              <a href="https://lifehacker.com/rss">https://lifehacker.com/rss</a>
+            </li>
           </ul>
       <p>Estos canales pueden ser agregados a un lector de RSS o Atom, como Feedly o Inoreader, para recibir actualizaciones automáticamente.</p>
     </div>
